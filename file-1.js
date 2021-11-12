@@ -4,3 +4,4 @@ console.log('Task: Clean your desk.');
 console.log('Task: Mops your floor.');
 console.log('Task: Wipe windows.');
 console.log('Task: Folds your clothes.');
+console.log('Task: Take out trash');
