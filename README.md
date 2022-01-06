@@ -77,3 +77,8 @@
 
 ### Rebase
 `git rebase -i HEAD~2`
+
+### Updating Origin via Token
+`git remote remove origin`
+`git remote add origin https://<TOKEN>@github.com/<USERNAME>/<REPO>.git`
+`git remote -v`
