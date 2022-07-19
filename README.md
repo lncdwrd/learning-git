@@ -82,3 +82,16 @@
 `git remote remove origin`
 `git remote add origin https://<TOKEN>@github.com/<USERNAME>/<REPO>.git`
 `git remote -v`
+
+# Scenarios
+
+### Uncommitted changes, Need to fetch and merge
+```
+git stash -u
+git stash list
+git fetch
+git checkout origin/main
+git branch main
+git merge origin/main
+git stash apply 0
+```
