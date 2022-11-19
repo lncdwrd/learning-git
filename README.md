@@ -19,7 +19,7 @@
 `git status`
 
 ### Log the commits
-`git log` or `git show hash-id`
+`git log`, `git log --oneline`, or `git show hash-id`
 
 ### Delete
 `git rm`
